@@ -1,0 +1,14 @@
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.venv/
+.DS_Store
+# Böyük xam data repoya qoyulmur (Kaggle-dan yüklənir)
+data/*.csv
+# models/ qəsdən git-ə daxildir: Streamlit deploy üçün lazımdır
+*.pyc
+.env
+
+catboost_info/
+__pycache__/
+.pytest_cache/
